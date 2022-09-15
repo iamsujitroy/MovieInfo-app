@@ -8,5 +8,5 @@
 </template>
 
 <style>
-@import "../assets/design/layouts/default.css";
+@import "@/assets/design/layouts/default.css";
 </style>

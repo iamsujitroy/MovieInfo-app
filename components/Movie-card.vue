@@ -1,11 +1,17 @@
 <template>
-    <div class="movie-card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg" alt="">
-        <h2>Movie name here</h2>
-        
-    </div>
+  <div class="movie-card">
+    <img class="movie-thumbnail" :src="imgUrl" :alt="imgAlt" />
+    <h2 class="movie-name">{{ name }}</h2>
+    <span class="release-date">{{ releaseDate }}</span>
+  </div>
 </template>
 
 <style>
-    @import "@/assets/design/custom/components/movie-card.css"
+@import "@/assets/design/custom/components/movie-card.css";
 </style>
+
+<script>
+export default {
+  props: ["name", "imgUrl", "imgAlt", "releaseDate"],
+};
+</script>

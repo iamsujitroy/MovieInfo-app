@@ -1,16 +1,17 @@
 .movie-card {
-  width: 328px;
-  background-color: green;
-  /* height: 420px; */
-  padding: 25px;
+  width: 270px;
+  padding: 14px;
+  display: inline-block;
+  box-shadow: 0 0 20px #0000003b;
+  margin-bottom: 35px;
 }
 
 .movie-card img {
   width: 100%;
-  height: 426px;
+  height: 321px;
   object-fit: cover;
 }
 .movie-card h2 {
-  font-size: 2.3rem;
-  margin-top: 10px;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
 }

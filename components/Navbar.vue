@@ -23,5 +23,5 @@
 </template>
 
 <style scoped>
-@import "~/assets/design/custom/components/navbar.css";
+@import "@/assets/design/custom/components/navbar.css";
 </style>
